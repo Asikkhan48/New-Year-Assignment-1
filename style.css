@@ -1,6 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 5px 5px 0px 5px;
+    margin: 0px 5px 0px 5px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -9,7 +9,7 @@
 
 .header img{
     height: 100%;
-    width: 1320px;
+    width: 100%;
     position: relative;
 }
 
@@ -61,5 +61,59 @@
 
 .offer-image {
     padding: 0px 200px 0px 200px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* Midnight-party */
+.party-mid img{
+    position: relative;
+    width: 100%;
+}
+
+.party-text {
+    position: absolute;
+}
+
+.welcome-party p {
+    top: 10%;
+    left: 3%;
+}
+
+/* Time & Date */
+
+.time-date {
+    width: 100%;
+    height: 500px;
+    background-color: #FFB996;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.td-color {
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.time-date p {
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+
+.Join-now {
+    background: #F00;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin-top: 30px;
 }
