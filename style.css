@@ -1,6 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
+    margin: 5px 5px 0px 5px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -22,14 +22,44 @@
 }
 
 .happy p {
-    color: #fff;
+    color: #FF9843;
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 2px;
 }
 .new-year {
-    color: #fff;
+    color: #7D0A0A;
     font-size: 72px;
     font-weight: 900;
 }
 
+/* Main-Offer */
+
+.offer {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.catagories {
+    color: #070211;
+    text-align: center;
+    font-weight: 700;
+}
+
+.offer-image {
+    padding: 0px 200px 0px 200px;
+    margin-top: 30px;
+}
