@@ -115,5 +115,54 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+/* Special offer */
+
+.special-offer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.spa-best {
+    color: #F00;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.spa-com {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.spa-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+
+.spa-date {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-image-two {
+    height: 390px;
+    width: 390px;
+    margin-right: 35px;
+    border: 10px solid red;
+    border-radius: 50%;
+    background-size: cover;
+
+}
+
+.spa-dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
 }
