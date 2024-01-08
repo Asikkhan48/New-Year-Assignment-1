@@ -1,0 +1,35 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header Style */
+
+.header img{
+    height: 100%;
+    width: 1320px;
+    position: relative;
+}
+
+.header-container {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+   
+}
+
+.happy p {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.new-year {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+}
+
