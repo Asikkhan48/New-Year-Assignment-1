@@ -41,7 +41,7 @@
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-    margin-top: 130px;
+    margin-top: 70px;
 }
 
 .holiday {
@@ -66,20 +66,36 @@
 }
 
 /* Midnight-party */
-.party-mid img{
+.party-midnight {
     position: relative;
+    display: inline-block;
+}
+
+.party-midnight img {
+    display: block;
     width: 100%;
 }
 
 .party-text {
     position: absolute;
+    text-align: center;
+    color: #FFF;
+    top: 25%;
+    left: 22%;
 }
 
-.welcome-party p {
-    top: 10%;
-    left: 3%;
+.welcome-text {
+    font-size: 70px;
+    font-weight: 900;
 }
 
+.join-now-me {
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 30px;
+ 
+}
 /* Time & Date */
 
 .time-date {
@@ -89,7 +105,7 @@
     display: block;
     text-align: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .td-color {
@@ -124,8 +140,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .spa-best {
@@ -197,10 +213,13 @@
 
 .holi-text {
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
-/* fifty parcent offer */
+.discount {
+    text-align: center;
+}
+
 
 /* Awesome-portfolio */
 
